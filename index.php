@@ -3,7 +3,7 @@
 
 //phpinfo();
 	require_once("datebase.php");
-	require_once("models/articles.php");
+	require("models/articles.php");
 	//$article = articles_get($_GET['id']);
 		$articles = articles_all();
 
